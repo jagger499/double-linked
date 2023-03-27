@@ -138,6 +138,7 @@ public class DoubleLinkedList {
         }
     }
 
+    // delete element with the specific value
     public void deleteElementByValue(String value) {
         if (isEmpty()) {
             return;
@@ -165,7 +166,7 @@ public class DoubleLinkedList {
         size--;
     }
  
-
+    // delete element in the specific index
     public void deleteElementByIndex(int value) {
         if (isEmpty()) {
             return;
