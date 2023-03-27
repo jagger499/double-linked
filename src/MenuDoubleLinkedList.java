@@ -7,7 +7,7 @@ public class MenuDoubleLinkedList {
 
         int opcion;
         do {
-            System.out.println("\n--- Menú Lista Doble ---");
+            System.out.println("\n--- Menú Lista de Alumnos ---");
             System.out.println("1. Agregar alumno a la lista");
             System.out.println("2. Agregar alumno al inicio de la lista");
             System.out.println("3. Eliminar alumno por posición en la lista");
