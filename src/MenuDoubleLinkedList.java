@@ -12,9 +12,9 @@ public class MenuDoubleLinkedList {
             System.out.println("2. Agregar alumno al inicio de la lista");
             System.out.println("3. Eliminar alumno por posición en la lista");
             System.out.println("4. Eliminar alumno por por nombre");
-            System.out.println("5. Agregar un elemento en una posicion especifica");
+            System.out.println("5. Agregar un alumno en una posición específica");
             System.out.println("6. Mostrar tamaño de la lista de alumnos");
-            System.out.println("7. Reemplazar un elemento de la lista");
+            System.out.println("7. Reemplazar un alumno de la lista");
             System.out.println("8. Imprimir lista de alumnos");
             System.out.println("9. Salir");
             System.out.print("Ingrese su opción: ");
@@ -49,7 +49,7 @@ public class MenuDoubleLinkedList {
                     LinkedList.deleteElementByValue(valorSEliminar);
                     break;
                 case 5:
-                    System.out.println("\n--- Agregar un alumno en una posicion especifica ---");
+                    System.out.println("\n--- Agregar un alumno en una posición específica ---");
                     System.out.print("Ingrese la posicion en la que se va a agregar: ");
                     String indexIngresar = scanner.nextLine();
                     System.out.print("Ingrese el valor para la posicion: ");
